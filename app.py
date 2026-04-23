@@ -5,8 +5,8 @@ import pandas as pd
 import numpy as np
 import joblib
 
-clas_model= joblib.load('artifacts/classification_model.pkl')
-reg_model = joblib.load('artifacts/regression_model.pkl')
+clas_model= joblib.load('classification_model.pkl')
+reg_model = joblib.load('regression_model.pkl')
 
 def main():
     st.set_page_config(
